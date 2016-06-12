@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+
+		<title>Maze Game Camera</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="javascript/GameTemplate/Game.js"></script>
+		<script src="javascript/GameTemplate/GameTemplate.js"></script>
+		<script src="javascript/GameTemplate/Vector.js"></script>
+		<script src ="javascript/GameTemplate/Background.js"></script>
+		<script src ="javascript/GameTemplate/GamePage.js"></script>
+		<script src ="javascript/GameTemplate/Level.js"></script>
+		<script src ="javascript/GameTemplate/GamePageManager.js"></script>
+		<script src ="javascript/GameTemplate/LevelManager.js"></script>
+		<script src ="javascript/GameTemplate/Button.js"></script>
+		<script src ="javascript/GameTemplate/Camera.js"></script>
+
+	</head>
+	<body>
+		<canvas id="MazeCamera" height="490" width="700"></canvas>
+		<script src ="javascript/MazeCameraGame.js"></script>
+		<script src = "javascript/GamePages/Levels/MazeLevel.js"></script>
+		<script src = "javascript/GamePages/Levels/Level1.js"></script>
+		<script src = "javascript/GamePages/Levels/Level2.js"></script>
+		<script src = "javascript/GameObjects/Block.js"></script>
+		<script>
+			MazeCamera.start();
+		</script>
+	</body>
+</html>
